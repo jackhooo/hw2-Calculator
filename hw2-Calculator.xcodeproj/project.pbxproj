@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18AE4FC91DE32CDC00224D71 /* CalculatorCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AE4FC81DE32CDC00224D71 /* CalculatorCore.framework */; };
-		18AE4FCA1DE32CDC00224D71 /* CalculatorCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 18AE4FC81DE32CDC00224D71 /* CalculatorCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		18C64ECE1DE30AC800D51FB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C64ECD1DE30AC800D51FB9 /* AppDelegate.swift */; };
 		18C64ED01DE30AC800D51FB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C64ECF1DE30AC800D51FB9 /* ViewController.swift */; };
 		18C64ED31DE30AC800D51FB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C64ED11DE30AC800D51FB9 /* Main.storyboard */; };
@@ -44,7 +42,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				18AE4FCA1DE32CDC00224D71 /* CalculatorCore.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,7 +49,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		18AE4FC81DE32CDC00224D71 /* CalculatorCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CalculatorCore.framework; sourceTree = "<group>"; };
 		18C64ECA1DE30AC800D51FB9 /* hw2-Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hw2-Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C64ECD1DE30AC800D51FB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18C64ECF1DE30AC800D51FB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -75,7 +71,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18AE4FC91DE32CDC00224D71 /* CalculatorCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,7 +94,6 @@
 		18C64EC11DE30AC700D51FB9 = {
 			isa = PBXGroup;
 			children = (
-				18AE4FC81DE32CDC00224D71 /* CalculatorCore.framework */,
 				18C64ECC1DE30AC800D51FB9 /* hw2-Calculator */,
 				18C64EE11DE30AC800D51FB9 /* hw2-CalculatorTests */,
 				18C64EEC1DE30AC800D51FB9 /* hw2-CalculatorUITests */,

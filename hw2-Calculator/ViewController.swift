@@ -15,7 +15,7 @@
 //
 
 import UIKit
-import CalculatorCore
+//import CalculatorCore
 
 
 extension Double {
