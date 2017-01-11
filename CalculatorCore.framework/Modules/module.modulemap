@@ -1,3 +1,0 @@
-framework module CalculatorCore {
-    header "CalculatorCore-Swift.h"
-}
