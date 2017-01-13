@@ -149,23 +149,33 @@ class ViewController: UIViewController {
     @IBAction func elseButtonClicked(_ sender: UIButton) {
         // Add current number into the core as a step
         let currentNumber = Double(self.displayLabel.text ?? "0")!
-        try! self.core.addStep(currentNumber)
         
         switch sender.tag {
         case 1106: // 除一百
+            try! self.core.addStep(currentNumber)
             try! self.core.addStep(/)
             //self.displayLabel.text = "100"
             try! self.core.addStep(100)
+            let result = self.core.calculate()!
+            self.displayLabel.text = result.displayString
+            self.core = Core<Double>()
+            
         case 1107: // 正負號轉換
-            try! self.core.addStep(*)
-            try! self.core.addStep(-1)
+            let floor = currentNumber.rounded(.towardZero)
+            let isInteger = currentNumber.distance(to: floor).isZero
+            if isInteger {
+                let indexOfDot = String(currentNumber * -1).characters.index(of: ".")
+                self.displayLabel.text = String(currentNumber * -1).substring(to: indexOfDot!)
+            }
+            else
+            {
+                self.displayLabel.text = String(currentNumber * -1)
+            }
+            
         default:
             fatalError("Unknown operator button: \(sender)")
         }
         
-        let result = self.core.calculate()!
-        self.displayLabel.text = result.displayString
-        self.core = Core<Double>()
     }
     
     @IBAction func calculateButtonClicked(_ sender: UIButton) {

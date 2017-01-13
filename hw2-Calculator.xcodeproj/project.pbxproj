@@ -12,9 +12,6 @@
 		18C64ED31DE30AC800D51FB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C64ED11DE30AC800D51FB9 /* Main.storyboard */; };
 		18C64ED51DE30AC800D51FB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C64ED41DE30AC800D51FB9 /* Assets.xcassets */; };
 		18C64ED81DE30AC800D51FB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C64ED61DE30AC800D51FB9 /* LaunchScreen.storyboard */; };
-		18C64EE31DE30AC800D51FB9 /* hw2_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C64EE21DE30AC800D51FB9 /* hw2_CalculatorTests.swift */; };
-		18C64EEE1DE30AC800D51FB9 /* hw2_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C64EED1DE30AC800D51FB9 /* hw2_CalculatorUITests.swift */; };
-		18D2D5321DE3262000CDF9F8 /* CalculatorCore in Resources */ = {isa = PBXBuildFile; fileRef = 18D2D5311DE3262000CDF9F8 /* CalculatorCore */; };
 		18D2D5361DE3288500CDF9F8 /* CalculatorCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D2D5351DE3288500CDF9F8 /* CalculatorCore.swift */; };
 /* End PBXBuildFile section */
 
@@ -57,12 +54,7 @@
 		18C64ED71DE30AC800D51FB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18C64ED91DE30AC800D51FB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18C64EDE1DE30AC800D51FB9 /* hw2-CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hw2-CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		18C64EE21DE30AC800D51FB9 /* hw2_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hw2_CalculatorTests.swift; sourceTree = "<group>"; };
-		18C64EE41DE30AC800D51FB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18C64EE91DE30AC800D51FB9 /* hw2-CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hw2-CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		18C64EED1DE30AC800D51FB9 /* hw2_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hw2_CalculatorUITests.swift; sourceTree = "<group>"; };
-		18C64EEF1DE30AC800D51FB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18D2D5311DE3262000CDF9F8 /* CalculatorCore */ = {isa = PBXFileReference; lastKnownFileType = folder; name = CalculatorCore; path = "/Users/apple/Desktop/學校/1051 行動平台應用程式開發/hw2-Calculator/CalculatorCore"; sourceTree = "<absolute>"; };
 		18D2D5351DE3288500CDF9F8 /* CalculatorCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalculatorCore.swift; path = ../CalculatorCore/CalculatorCore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,8 +87,6 @@
 			isa = PBXGroup;
 			children = (
 				18C64ECC1DE30AC800D51FB9 /* hw2-Calculator */,
-				18C64EE11DE30AC800D51FB9 /* hw2-CalculatorTests */,
-				18C64EEC1DE30AC800D51FB9 /* hw2-CalculatorUITests */,
 				18C64ECB1DE30AC800D51FB9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -123,24 +113,6 @@
 				18C64ED91DE30AC800D51FB9 /* Info.plist */,
 			);
 			path = "hw2-Calculator";
-			sourceTree = "<group>";
-		};
-		18C64EE11DE30AC800D51FB9 /* hw2-CalculatorTests */ = {
-			isa = PBXGroup;
-			children = (
-				18C64EE21DE30AC800D51FB9 /* hw2_CalculatorTests.swift */,
-				18C64EE41DE30AC800D51FB9 /* Info.plist */,
-			);
-			path = "hw2-CalculatorTests";
-			sourceTree = "<group>";
-		};
-		18C64EEC1DE30AC800D51FB9 /* hw2-CalculatorUITests */ = {
-			isa = PBXGroup;
-			children = (
-				18C64EED1DE30AC800D51FB9 /* hw2_CalculatorUITests.swift */,
-				18C64EEF1DE30AC800D51FB9 /* Info.plist */,
-			);
-			path = "hw2-CalculatorUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,7 +224,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				18C64ED81DE30AC800D51FB9 /* LaunchScreen.storyboard in Resources */,
-				18D2D5321DE3262000CDF9F8 /* CalculatorCore in Resources */,
 				18C64ED51DE30AC800D51FB9 /* Assets.xcassets in Resources */,
 				18C64ED31DE30AC800D51FB9 /* Main.storyboard in Resources */,
 			);
@@ -289,7 +260,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18C64EE31DE30AC800D51FB9 /* hw2_CalculatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,7 +267,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18C64EEE1DE30AC800D51FB9 /* hw2_CalculatorUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
